@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color-principal:#A02142;
+    --color-secundario: #691B31;
+    --color-terciario:#ddc3a1;
+    --color-blanco:#FFFFFF;
+    --letra: 'Montserrat', sans-serif;
+
+}
+body{
+    font-size: 16px;
+}
+.container-fluid{
+    display: flex;
+}
+.col-4{
+    background-color:var(--color-principal);
+    height: 100vh;
+    width: 100vh;
+}
+.col-8{
+    background-image: url(./images/fondo.png);
+    background-color: var(--color-terciario);
+    height: 100vh;
+    width: 100vh;
+    
+
+}
+.sesion{
+    display: flex;
+    color: white;
+    font-size: 400%;
+    justify-content:center;
+    align-items:center;
+    margin-top: 1.2em;
+    font-family: var(--letra);
+    font-weight: 700;
+}
+.cuadro{
+    width: 45.125em;
+    height: 28.063em;
+    background-color:var(--color-principal);
+    margin-left: 15.625em;
+    margin-right: 15.625em;
+
+}
+.circulo{
+    background-color:var(--color-principal);
+    border-radius: 50%;
+    width: 8.125em;
+    height: 8.125em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4em;
+
+}
+.imageninicio{
+    width: 8.125em;
+
+}
+.usuario{
+    background-image: url(./images/usuario.png);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 479px;
+    height: 36px;
+    text-align: center;
+    font-family: var(--letra);
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-top: 5em;
+    
+
+}
+.contraseña{
+    background-image: url(./images/contraseña.png);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 479px;
+    height: 36px;
+    text-align: center;
+    font-family: var(--letra);
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.checkbox{
+    width: 2.875em;
+    height: 2.875em;
+    margin-left: 12em;
+    margin-top: 3em;
+    
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.recordar{
+    color: var(--color-blanco);
+}
+.micontrasena{
+    color: var(--color-blanco);
+    font-size: 1.3125em;
+    font-family: var(--letra);
+    margin-left: 12em;
+    margin-top: -2em;
+
+}
+
+.botoninicio{
+    display: flex;
+    width: 8.9375em;
+    height: 1.7em;
+    background-color: var(--color-secundario);
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.875em;
+    color: var(--color-blanco);
+    font-size: 2.4em;
+    font-family: var(--letra);
+    margin-top: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.referencia{
+    display: flex;
+    color:  var(--color-principal);
+    font-size: 1.9375em;
+    font-family: var(--letra);
+    margin-top: .8em;
+    margin-left: 6em;
+}
+.botonregistrar{
+    display: flex;
+    width: 10em;
+    height: 2.1875em;
+    background-color: var(--color-secundario);
+    justify-content: center;
+    align-items: center;
+    color: var(--color-blanco);
+    font-size: 2.4375em;
+    border-radius: 23px 23px 0px 0px;
+    font-family: var(--letra);
+    margin-top: 1.04em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenlogo{
+    width: 6.25em;
+    height: 8.125em;
+    margin: 1rem;
+
+}
+.hidalgologo{
+    width: 12.5em;
+    height: 7.75em;
+    margin-top: 1em;
+    margin-left: 6em;
+    
+}
+.acceder{
+    font-size: 2.8125em;
+    font-family: var(--letra);
+    color: var(--color-blanco);
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+.facebooklogo{
+    display: block;
+    margin-left: 8em;
+    margin-top: 1.25em;
+    width: 5.9375em;
+    height: 5.9375em;
+}
+.facebookbanner{
+    display: block;
+    margin-top: 2.5em;
+    margin-right: 10em;
+    width: 13.3125em;
+    height: 3.25em;
+
+}
+.googlelogo{
+    display: block;
+    margin-left: 8em;
+    margin-top: 1.25em;
+    width: 5.9375em;
+    height: 5.9375em;
+
+}
+.googlebanner{
+    display: block;
+    margin-top: 2.5em;
+    margin-right: 10em;
+    width: 13.3125em;
+    height: 3.25em;
+
+}
+.twitterlogo{
+    display: block;
+    margin-left: 8em;
+    margin-top: 1.25em;
+    width: 5.9375em;
+    height: 5.9375em;
+
+}
+.twitterbanner{
+    display: block;
+    margin-top: 2.5em;
+    margin-right: 10em;
+    width: 13.3125em;
+    height: 3.25em;
+
+}
+
+.bordadopajaros{
+    height: 8.75em;
+    margin-top: 13em;
+    margin-left: 4em;
+}
